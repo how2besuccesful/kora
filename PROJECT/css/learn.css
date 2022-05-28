@@ -1,0 +1,19 @@
+h1{
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+    color: navy;
+    font-family:  'Segoe UI';
+}
+
+.para{
+    width: 700px;
+    position: absolute;
+    left: 30px;
+}
+
+.main{
+position: absolute;
+width: 700px;
+right: 30px;
+}

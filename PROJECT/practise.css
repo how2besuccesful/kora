@@ -1,0 +1,151 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    box-shadow: 0 3px 30px black;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+
+header img{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.rex{
+    text-decoration: none;
+    color: white;
+}
+
+.rex:hover{
+    color: red;
+    background-color: black;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+
+#E001{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+
+#E001 li > a{
+    display: block;
+  color: white;
+  text-decoration: none;
+  left: 10px;
+  margin: 10px;
+ 
+
+}
+
+#E001 li > a:hover{
+    color: blue;
+    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+}
+
+#E001 li > a:active{
+    color: black;
+}
+
+.hero{
+    background-color: cyan;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-inner{
+    max-width: 750px;
+}
+
+.hero h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.hero p{
+    font-size: 1.18rem;
+    line-height: 1.6;
+}
+
+.btn{
+    background-color: blueviolet;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 12px 20px;
+    display: inline-block;
+    font-size: 1.18rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.btn:hover{
+    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+    color: rgb(59, 18, 11);
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+    background-color: yellow;
+}
+
+.features{
+    background-color: rgb(219, 255, 255);
+    padding: 60px 45px;
+}
+
+.feature-inner{
+    cursor: pointer;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    /*The fraction unit, the browser does the calculation for us 
+    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-column-gap: 15px;
+    grid-row: 25px;
+}
+
+.feature-items h3{
+    color: #283593;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.feature-items p{
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.footer{
+    text-align: center;
+}
